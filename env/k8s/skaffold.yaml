@@ -1,0 +1,5 @@
+apiVersion: skaffold/v2beta28
+kind: Config
+requires:
+  - path: "./auth0/skaffold.yaml"
+  - path: "./db/skaffold.yaml"
